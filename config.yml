@@ -3,10 +3,12 @@ description: question paper
 template:
   repo: computational-mathematics-and-computer-architecture-template
   name: computational-mathematics-and-computer-architecture
+  description: model questions
 before:
   - type: createIssue
     title: Welcome!
     body: new-issue.md
+  - type: findInTree
 steps:
   - title: First step
     description: The first step in your course
